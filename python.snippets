@@ -7,3 +7,12 @@ snippet withopen "With open Shebang" b
 with open('${1:file}', '${2:r}') as ${3:filename}:
     ${4:pass}
 endsnippet
+
+snippet scriptmain "script main open Shebang" b
+def main():
+    ${1:pass}
+
+
+if __name__ == '__main__':
+    main()
+endsnippet
