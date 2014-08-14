@@ -8,7 +8,7 @@ with open('${1:file}', '${2:r}') as ${3:filename}:
     ${4:pass}
 endsnippet
 
-snippet scriptmain "script main open Shebang" b
+snippet scriptmain "script main open" b
 def main():
     ${1:pass}
 
@@ -16,3 +16,10 @@ def main():
 if __name__ == '__main__':
     main()
 endsnippet
+
+snippet argparser "Create argument parser" b
+parser = argparse.ArgumentParser()
+parser.add_argument()
+args = parser.parse_args()
+endsnippet
+
