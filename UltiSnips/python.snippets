@@ -27,3 +27,6 @@ snippet bp "Put a PDB breakpoint here." b
 import pdb; pdb.set_trace()
 endsnippet
 
+snippet gp "Gevent Patch" b
+import gevent.monkey; gevent.monkey.patch_all()
+endsnippet
